@@ -27,11 +27,7 @@ main{
     height: 150px;
     background-color: #3870E0;
 }
-.struttura{
-    width: calc(100vw - 75px);
-    
-    background-color: blue;
-}
+
 .icone-sidebar, .end-sidebar{
     width: 100%;
     color: white;
@@ -42,11 +38,14 @@ main{
     display: flex;
     flex-direction: column;
 }
-.list{
+.list, .row-head{
     display: flex;
     flex-direction: row;
 }
 .list img{
     width: 30px;
     height: 30px;
+}
+.faq{
+    font-size: 25px;
 }
