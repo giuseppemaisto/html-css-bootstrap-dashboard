@@ -13,6 +13,7 @@
         <title>Document</title>
     </head>
     <body>
+      <!--header-->
         <header class="d-flex align-items-center">
           <nav  class="container-fluid bg-white"> 
             <div class="row">
@@ -22,19 +23,29 @@
                 <!--LOGO MOBILE-->
                 <img  src="./img/mobile-logo.png" class="height-logo img-fluid  d-lg-none" alt="logo">
               </div>
+              <!--barrca di ricerca -->
               <div class="col">
                 <div class="search-bar">
                   <i class="fa-solid fa-magnifying-glass"></i>
                   <input type="text" class="search-bar-input" placeholder="Prova a cercare: Lezioni di Lavarel">
                 </div>
               </div>
+              <!--icone header-->
               <div class="col-2">
                 <nav class="header-menu">
                 <ul class="header-menu-list">
                   <li> <i class="fa-solid fa-list"></i> </li>
                   <li><i class="fa-solid fa-circle-question"></i> </li>
                   <li><i class="fa-solid fa-ellipsis-vertical"></i> </li>
-                  <li><i class="fa-solid fa-bell"></i> </li>
+                  <li><i data-bs-toggle="dropdown" role="button" id="dropdownMenuBell" class="fa-solid fa-bell"></i> 
+                  
+                    <ul aria-labelledby="#dropdownMenuBell" class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </nav>
               </div>
@@ -44,6 +55,7 @@
         </header>
 
         <div class="wrapper">
+          <!--aside-->
           <div class="aside">
             <div class="icone-aside">
               <div class="icon"><i class="fa-solid fa-house"></i> <span class="d-none d-lg-block">Home</span></div>
@@ -55,6 +67,7 @@
           </div>
           </div>
           <div class="main ">
+            <!--top bar blu-->
             <div class="top-bar-blue container-fluid text-white p-4">
               <div class="row gy-3">
                 <div class="col-12 col-sm-4 col-lg-6 order-2 order-sm-0">
@@ -87,6 +100,8 @@
                 </div>
 
               </div>
+
+              <!--prima card list-->
               <div class="content container-fluid">
                 
                  <div class="row">
@@ -356,6 +371,8 @@
   
                         
                     </div>
+
+                    <!--checkbar-->
                     <div class="col-12 col-sm-4">
                       <div class="card my-3">
                         <div class="card-header">
@@ -385,7 +402,7 @@
                     </div>
 
 
-
+                    <!--card grfico con link-->
                     <div class="card">
                       <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
