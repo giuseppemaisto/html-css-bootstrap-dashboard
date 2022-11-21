@@ -102,7 +102,9 @@ color: gray;
     width: 30px;
     height: 30px;
 }
-
+.card ul li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
 
 
