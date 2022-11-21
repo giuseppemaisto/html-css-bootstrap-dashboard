@@ -78,7 +78,9 @@ color: gray;
     padding-left: 10px;
 
 }
-
+.offcanvas{
+    width: 600px;
+}
 
 /*main*/
 .main{

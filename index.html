@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
                 <!--LOGO MOBILE-->
                 <img  src="./img/mobile-logo.png" class="height-logo img-fluid  d-lg-none" alt="logo">
               </div>
-              <!--barrca di ricerca -->
+              <!--barra di ricerca -->
               <div class="col">
                 <div class="search-bar">
                   <i class="fa-solid fa-magnifying-glass"></i>
@@ -58,7 +58,7 @@
           <!--aside-->
           <div class="aside">
             <div class="icone-aside">
-              <div class="icon"><i class="fa-solid fa-house"></i> <span class="d-none d-lg-block">Home</span></div>
+              <div class="icon"><i class="fa-solid fa-house"></i> <div><span class="d-none d-lg-block">Home</span></div></div>
               <div class="icon"><i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-block">Stats</span></div>
               <div class="icon"><i class="fa-solid fa-signal"></i><span class="d-none d-lg-block">Signal</span></div>
           </div>
@@ -86,7 +86,7 @@
                     </div>
                   </div>
                   </div>
-                </div>
+                </div> 
                 <div class="col-12 col-sm-4 col-lg-4 order-3 order-sm-0">
                   <div>studenti negli ultimi 30 minuti</div>
                   <div><strong>125</strong></div>
@@ -94,7 +94,62 @@
                 <div class="col-12 col-sm-4 col-lg-2 order-1 order-sm-0 d-flex">
                   <div>Nuovo Studente</div>
                 <div>
-                  <i class="fa-regular fa-square-plus fa-2x mx-2 gy-2 "></i>
+                  <!--OFCANVAS-->
+                  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-regular fa-square-plus fa-2x mx-2 gy-2 "></i></button>
+
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasRightLabel"><i class="fa-regular fa-square-plus fa-2x mx-2 gy-2 "></i></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label">Address 2</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">State</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
                 </div>
                 </div>
                 </div>
@@ -350,7 +405,7 @@
                               </h2>
                               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                  vai su setting
+                                  vai sulla campanella
                                 </div>
                               </div>
                             </div>
