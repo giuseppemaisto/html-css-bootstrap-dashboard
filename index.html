@@ -18,7 +18,7 @@
             <div class="row">
               <div class="col-auto">
                 <!--LOGO DESKTOP-->
-                <img  src="./img/logo.svg" class="img-fluid d-none d-lg-block" alt="logo-mobile">
+                <img  src="./img/logo.svg" class="img-fluid d-none d-lg-block my-2" alt="logo-mobile">
                 <!--LOGO MOBILE-->
                 <img  src="./img/mobile-logo.png" class="height-logo img-fluid  d-lg-none" alt="logo">
               </div>
@@ -46,12 +46,12 @@
         <div class="wrapper">
           <div class="aside">
             <div class="icone-aside">
-              <div><i class="fa-solid fa-house"></i></div>
-              <div><i class="fa-solid fa-chart-simple"></i></div>
-              <div><i class="fa-solid fa-signal"></i></div>
+              <div class="icon"><i class="fa-solid fa-house"></i> <span class="d-none d-lg-block">Home</span></div>
+              <div class="icon"><i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-block">Stats</span></div>
+              <div class="icon"><i class="fa-solid fa-signal"></i><span class="d-none d-lg-block">Signal</span></div>
           </div>
           <div class="end-aside">
-              <div><i class="fa-solid fa-gear"></i></div>
+              <div class="icon"><i class="fa-solid fa-gear"></i><span class="d-none d-lg-block">Setting</span></div>
           </div>
           </div>
           <div class="main ">
@@ -89,26 +89,38 @@
               </div>
               <div class="content container-fluid">
                 
-                 <div class="row d-flex">
-                  <div class="col-12">
-                    <div class="col-12 col-lg-6">
-                      <div class="card">
+                 <div class="row">
+                    <div class="col-12 col-sm-8">
+                      <div class="card my-3">
                         <div class="card-header">
                           Prossime classi
                         </div>
                         <div class="row row-head text-center">
-                            <div class="col">Nome</div>
-                            <div class="col">stato</div>
-                            <div class="col">Azioni</div>
+                            <div class="col"><strong>Nome</strong></div>
+                            <div class="col d-none d-lg-block"><strong>Data inizio</strong></div>
+                            <div class="col d-none d-lg-block"><strong>ROI</strong></div>
+                            <div class="col"><strong>stato</strong></div>
+                            <div class="col"><strong>Azioni</strong></div>
                         </div>
                         <ul class="list-group list-group-flush">
                           <li class="list-group-item">
                                 <div class="row list">
-                                    <div class="col">
+                                    <div class="col d-flex">
                                         <img src="./img/class-avatar.jpg" alt="class-avatar">
-                                        <div>classe 75</div>
+                                        <div class="mx-2">classe 75</div>
 
                                     </div>
+
+                                    <div class="col mx-5 col d-none d-lg-block">
+                                      <span>
+                                        15 Feb 2021
+                                      </span>
+                                    </div>
+
+                                    <div class="col col d-none d-lg-block">
+                                      <span>20%</span>
+                                    </div>
+
                                     <div class="col">
                                         <span class="badge rounded-pill bg-success">Done</span>
                                     </div>
@@ -119,11 +131,22 @@
                                 </div>
                             </li>
                           <li class="list-group-item"> <div class="row list">
-                                <div class="col">
+                                <div class="col d-flex">
                                     <img src="./img/class-avatar.jpg" alt="class-avatar">
-                                    <div>classe 76</div>
+                                    <div class="mx-2">classe 76</div>
 
                                 </div>
+
+                                <div class="col mx-5 col d-none d-lg-block">
+                                  <span>
+                                    15 Feb 2021
+                                  </span>
+                                </div>
+
+                                <div class="col col d-none d-lg-block">
+                                  <span>20%</span>
+                                </div>
+
                                 <div class="col">
                                     <span class="badge rounded-pill bg-success">Done</span>
                                 </div>
@@ -133,10 +156,21 @@
                                 </div>
                             </div></li>
                           <li class="list-group-item"> <div class="row list">
-                                <div class="col">
+                                <div class="col d-flex">
                                     <img src="./img/class-avatar.jpg" alt="class-avatar">
-                                    <div>classe 77</div>
+                                    <div class="mx-2">classe 77</div>
 
+                                </div>
+
+
+                                <div class="col mx-5 col d-none d-lg-block">
+                                  <span>
+                                    15 Feb 2021
+                                  </span>
+                                </div>
+
+                                <div class="col col d-none d-lg-block">
+                                  <span>20%</span>
                                 </div>
                                 <div class="col">
                                     <span class="badge rounded-pill bg-warning">process</span>
@@ -147,10 +181,21 @@
                                 </div>
                             </div></li>
                           <li class="list-group-item"> <div class="row list">
-                                <div class="col">
+                                <div class="col d-flex">
                                     <img src="./img/class-avatar.jpg" alt="class-avatar">
-                                    <div>classe 78</div>
+                                    <div class="mx-2">classe 78</div>
 
+                                </div>
+
+
+                                <div class="col mx-5 col d-none d-lg-block">
+                                  <span>
+                                    15 Feb 2021
+                                  </span>
+                                </div>
+
+                                <div class="col col d-none d-lg-block">
+                                  <span>20%</span>
                                 </div>
                                 <div class="col">
                                     <span class="badge rounded-pill bg-success">Done</span>
@@ -161,10 +206,21 @@
                                 </div>
                             </div></li>
                           <li class="list-group-item"> <div class="row list">
-                                <div class="col">
+                                <div class="col d-flex">
                                     <img src="./img/class-avatar.jpg" alt="class-avatar">
-                                    <div>classe 79</div>
+                                    <div class="mx-2">classe 79</div>
 
+                                </div>
+
+
+                                <div class="col mx-5 col d-none d-lg-block">
+                                  <span>
+                                    15 Feb 2021
+                                  </span>
+                                </div>
+
+                                <div class="col col d-none d-lg-block">
+                                  <span>20%</span>
                                 </div>
                                 <div class="col">
                                     <span class="badge rounded-pill bg-danger">failed</span>
@@ -175,10 +231,21 @@
                                 </div>
                             </div></li>
                           <li class="list-group-item"> <div class="row list">
-                                <div class="col">
+                                <div class="col d-flex">
                                     <img src="./img/class-avatar.jpg" alt="class-avatar">
-                                    <div>classe 80</div>
+                                    <div class="mx-2">classe 80</div>
 
+                                </div>
+
+
+                                <div class="col mx-5 col d-none d-lg-block">
+                                  <span>
+                                    15 Feb 2021
+                                  </span>
+                                </div>
+
+                                <div class="col col d-none d-lg-block">
+                                  <span>20%</span>
                                 </div>
                                 <div class="col">
                                     <span class="badge rounded-pill bg-success">done</span>
@@ -189,10 +256,21 @@
                                 </div>
                             </div></li>
                           <li class="list-group-item"> <div class="row list">
-                                <div class="col">
+                                <div class="col d-flex">
                                     <img src="./img/class-avatar.jpg" alt="class-avatar">
-                                    <div>classe 81</div>
+                                    <div class="mx-2">classe 81</div>
 
+                                </div>
+
+
+                                <div class="col mx-5 col d-none d-lg-block">
+                                  <span>
+                                    15 Feb 2021
+                                  </span>
+                                </div>
+
+                                <div class="col col d-none d-lg-block">
+                                  <span>20%</span>
                                 </div>
                                 <div class="col">
                                     <span class="badge rounded-pill bg-danger">failed</span>
@@ -203,10 +281,21 @@
                                 </div>
                             </div></li>
                           <li class="list-group-item"> <div class="row list">
-                                <div class="col">
+                                <div class="col d-flex">
                                     <img src="./img/class-avatar.jpg" alt="class-avatar">
-                                    <div>classe 82</div>
+                                    <div class="mx-2">classe 82</div>
 
+                                </div>
+
+
+                                <div class="col mx-5 col d-none d-lg-block">
+                                  <span>
+                                    15 Feb 2021
+                                  </span>
+                                </div>
+
+                                <div class="col col d-none d-lg-block">
+                                  <span>20%</span>
                                 </div>
                                 <div class="col">
                                     <span class="badge rounded-pill bg-success">done</span>
@@ -219,83 +308,84 @@
                             </li>
                         </ul>
                       </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                      <div class="col bg-light">      
+                    
+                      <!--faq-->
                       <div class="card my-3">
-                      <div class="card-header">
-                          <strong class="faq">FAQ</strong>
-                        </div>
-                      <div class="accordion" id="accordionExample">
-                          <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Come aggiungere un nuovo studente?
-                              </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                               
+                        <div class="card-header">
+                            <strong class="faq">FAQ</strong>
+                          </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Come aggiungere un nuovo studente?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  sul tasto "nuovo studente"
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Come posso accedere alle informazioni delmio account?
-                              </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                               
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Come posso accedere alle informazioni delmio account?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  vai su setting
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Posso usare questa dashboard da mobile?
-                              </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                              <div class="accordion-body">
-                               
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Posso usare questa dashboard da mobile?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                 Certamente!!
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          </div>
-                    </div>
-                  </div>
-                 </div>
-                 <div class="col-12">
-                  <div class="col-12 col-lg-6">
-                    <div class="card my-3">
-                      <div class="card-header">
-                        TODO
+                            </div>
                       </div>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                          <label class="form-check-label" for="flexCheckDefault">
-                            Kickoff nuove classi
-                          </label>
-                        </div></li>
-                        <li class="list-group-item"><div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                          <label class="form-check-label" for="flexCheckDefault">
-                            Lezione su Bootstrap 5 in classe #75
-                          </label>
-                        </div></li>
-                        <li class="list-group-item"><div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                          <label class="form-check-label" for="flexCheckDefault">
-                            Controllare username github studenti
-                          </label>
-                        </div></li>
-                      </ul>
+  
+                        
+                    </div>
+                    <div class="col-12 col-sm-4">
+                      <div class="card my-3">
+                        <div class="card-header">
+                          TODO
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item"><div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Kickoff nuove classi
+                            </label>
+                          </div></li>
+                          <li class="list-group-item"><div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Lezione su Bootstrap 5 in classe #75
+                            </label>
+                          </div></li>
+                          <li class="list-group-item"><div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Controllare username github studenti
+                            </label>
+                          </div></li>
+                        </ul>
+  
+                    </div>
 
-                  </div>
-                  <div class="col-12 ">
+
+
                     <div class="card">
                       <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -312,11 +402,10 @@
                         
                       </div>
                     </div></div>
-                  </div>
-                  
-                  </div>
+
+
+                    </div>
                  </div>
-               
               </div>
             </div>
           </div>

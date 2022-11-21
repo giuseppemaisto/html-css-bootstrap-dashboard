@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: gray;
+    
     height: 4rem;
     
 }
@@ -75,7 +75,7 @@ color: gray;
     color: white;
     text-align: center;
     line-height: 30px;
-    padding-left: 20px;
+    padding-left: 10px;
 
 }
 
@@ -114,6 +114,22 @@ color: gray;
     }
     .main{
         width: calc(100vw - 150px);
+    }
+    .icone-aside, .end-aside{
+        width: 100%;
+        color: white;
+       
+        line-height: 30px;
+        padding: 20px;
+    
+    }
+    .icon{
+        display: flex;
+    }
+    .icon span{
+        margin-left: 10px;
+        margin-bottom:10px ;
+        padding-bottom: 10px;
     }
     
 }
