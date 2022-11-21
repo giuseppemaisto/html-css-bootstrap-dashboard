@@ -14,32 +14,33 @@
     </head>
     <body>
         <header class="d-flex align-items-center">
-            <nav class="container-fluid bg-white">
-              <div class="row">
-                <div class="col-auto">
-                  <!--
-                  <img class="img-fluid d-none d-lg-block" src="./img/logo.svg" alt="logo">
-                  <img lass="img-fluid height-logo  d-lg-none" src="./img/mobile-logo.png" alt="logo">
-                </div>
-                    -->
-                <div class="col">
-                  
-                </div>
-                <div class="col-auto">
-                  <!--
-                  <nav>
-                    <ul class="header-menu-list">
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
-                  </nav>
-                -->
-                </div>
-
+          <nav  class="container-fluid bg-white"> 
+            <div class="row">
+              <div class="col-auto">
+                <!--LOGO DESKTOP-->
+                <img  src="./img/logo.svg" class="img-fluid d-none d-lg-block" alt="logo-mobile">
+                <!--LOGO MOBILE-->
+                <img  src="./img/mobile-logo.png" class="height-logo img-fluid  d-lg-none" alt="logo">
               </div>
-            </nav>
+              <div class="col">
+                <div class="search-bar">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input type="text" class="search-bar-input" placeholder="Prova a cercare: Lezioni di Lavarel">
+                </div>
+              </div>
+              <div class="col-2">
+                <nav class="header-menu">
+                <ul class="header-menu-list">
+                  <li> <i class="fa-solid fa-list"></i> </li>
+                  <li><i class="fa-solid fa-circle-question"></i> </li>
+                  <li><i class="fa-solid fa-ellipsis-vertical"></i> </li>
+                  <li><i class="fa-solid fa-bell"></i> </li>
+                </ul>
+              </nav>
+              </div>
+
+            </div>
+          </nav>
         </header>
 
         <div class="wrapper">
@@ -56,15 +57,39 @@
           <div class="main ">
             <div class="top-bar-blue container-fluid text-white p-4">
               <div class="row gy-3">
-                <div class="col-12 col-sm-4 col-lg-6 order-2 order-sm-0">first</div>
-                <div class="col-12 col-sm-4 col-lg-4 order-3 order-sm-0">second</div>
-                <div class="col-12 col-sm-4 col-lg-2 order-1 order-sm-0">third</div>
-              </div>
+                <div class="col-12 col-sm-4 col-lg-6 order-2 order-sm-0">
+                  <div>
+                  Boolean <span class="badge ">Primary</span>
+                  </div>
+                  <div class="d-flex">
+                    <span class="badge ">3 App </span>
+                    <span class="mx-2">>></span>
+                    <div>
+                    <div class="badge mx-2 d-lg-none">+</div>
+                    <div class="d-none d-lg-block mx-2">
+                      <span class="badge ">Primary</span>
+                      <span class="badge ">Primary</span>
+                      <span class="badge ">Primary</span>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-4 order-3 order-sm-0">
+                  <div>studenti negli ultimi 30 minuti</div>
+                  <div><strong>125</strong></div>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-2 order-1 order-sm-0 d-flex">
+                  <div>Nuovo Studente</div>
+                <div>
+                  <i class="fa-regular fa-square-plus fa-2x mx-2 gy-2 "></i>
+                </div>
+                </div>
+                </div>
 
               </div>
               <div class="content container-fluid">
                 
-                 <div class="row">
+                 <div class="row d-flex">
                   <div class="col-12">
                     <div class="col-12 col-lg-6">
                       <div class="card">
@@ -195,7 +220,7 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 col-lg-6">
                       <div class="col bg-light">      
                       <div class="card my-3">
                       <div class="card-header">
@@ -243,7 +268,7 @@
                   </div>
                  </div>
                  <div class="col-12">
-                  <div class="col-12">
+                  <div class="col-12 col-lg-6">
                     <div class="card my-3">
                       <div class="card-header">
                         TODO
@@ -270,7 +295,7 @@
                       </ul>
 
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 ">
                     <div class="card">
                       <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">

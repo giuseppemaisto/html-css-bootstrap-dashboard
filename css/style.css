@@ -9,8 +9,45 @@ header{
     height: 4rem;
     
 }
+.height-logo{
+    height: 3rem;
+}
 .bg-white{
     background-color: white;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(229, 229, 229) ;
+}
+.search-bar-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+.search-bar-input::placeholder{
+    font-size: 14px;
+}
+.search-bar i{
+    padding-right: 15px;
+}
+.header-menu-list{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.header-menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -45,13 +82,13 @@ header{
   
 }
 .top-bar-blue{
-    background-color: blue;
+    background-color: rgb(56,112 , 224);
    
 }
-.content{
-    background-color: red;
-   
+.badge{
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
 .list, .row-head{
     display: flex;
     flex-direction: row;
