@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
-
+.contenuto{
+    width: calc(100VW - 150px);
+}
+.row{
+    width: 100%;
+}
 .container-fluid{
     width: 100%;
 }
@@ -15,7 +20,7 @@ main{
     display: flex;
 }
 .sidebar{
-    width: 75px;
+    width: 150px;
     
     background-color: #0B1D32;
     display: flex;
@@ -23,7 +28,7 @@ main{
     justify-content: space-between;
 }
 .top{
-    width: calc(100vw - 75px);
+    width: calc(100vw - 150px);
     height: 150px;
     background-color: #3870E0;
 }
@@ -34,10 +39,7 @@ main{
     text-align: center;
     line-height: 30px;
 }
-.row{
-    display: flex;
-    flex-direction: column;
-}
+
 .list, .row-head{
     display: flex;
     flex-direction: row;
@@ -48,4 +50,7 @@ main{
 }
 .faq{
     font-size: 25px;
+}
+.col-4{
+    height: 500px;
 }
