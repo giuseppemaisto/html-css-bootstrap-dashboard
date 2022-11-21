@@ -43,6 +43,11 @@ header{
     width: 100%;
     justify-content: space-evenly;
 }
+.header-menu-list i{
+
+color: gray;
+}
+
 .header-menu{
     height: 100%;
     width: 100%;
