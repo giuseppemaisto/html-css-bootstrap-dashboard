@@ -92,57 +92,87 @@
                   <div><strong>125</strong></div>
                 </div>
                 <div class="col-12 col-sm-4 col-lg-2 order-1 order-sm-0 d-flex">
-                  <div>Nuovo Studente</div>
+                  <span>Nuovo Studente</span>
                 <div>
                   <!--OFCANVAS-->
-                  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-regular fa-square-plus fa-2x mx-2 gy-2 "></i></button>
+                  <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-regular fa-square-plus fa-2x mx-2 gy-2 "></i></button>
 
                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header">
                       <h5 class="offcanvas-title" id="offcanvasRightLabel"><i class="fa-regular fa-square-plus fa-2x mx-2 gy-2 "></i></h5>
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
-                      <div>aggiungi nuovo studente</div>
-                      <div class="row g-3">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
-                        </div>
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Cognome" aria-label="Last name">
-                        </div>
-                      </div>
-                      <div class="input-group my-3 flex-nowrap">
-                        <span class="input-group-text  " id="addon-wrapping">@</span>
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
-                      </div>
+                    <div class="offcanvas-body text-dark">
+                      <form class="row g-3">
 
-                      <div class="row mb-2">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                        <div class="col-sm-12">
-                          <input type="password" placeholder="password" class="form-control" id="inputPassword3">
+                        <div class="row g-3">
+                          <div class="col">
+                            <label for="First-name">Nome</label>
+                            <input type="text" class="form-control" placeholder="nome" aria-label="First name">
+                          </div>
+                          <div class="col">
+                            <label for="Last-name">Cognome</label>
+                            <input type="text" class="form-control" placeholder="Cognome" aria-label="Last name">
+                          </div>
                         </div>
-                      </div>
+                        
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" placeholder="inserisci email" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Password</label>
+                          <input type="password" class="form-control" placeholder="password" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Indirizzo</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                       
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">Città</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">Stato</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>
+                              Italia 
+                            </option>
+                            <option>
+                              altro
+                            </option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">CAP</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
 
-                      <div class="row g-3">
-                        <div class="col-sm-7">
-                          <input type="text" class="form-control" placeholder="City" aria-label="City">
+                        <label >Foto</label>
+                        <div class="input-group mb-3">
+                          
+                          <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
                         </div>
-                        <div class="col-sm">
-                          <input type="text" class="form-control" placeholder="State" aria-label="State">
-                        </div>
-                        <div class="col-sm">
-                          <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
-                        </div>
-                      </div>
 
-                      <div class="col-auto my-3">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                             Seleziona per proseguire 
+                            </label>
+                          </div>
+                        </div>
+                        <div class="d-grid gap-2 d-md-block">
+                          <button class="btn btn-primary" type="button">Salva</button>
+                          <button class="btn btn-warning" type="button">Svuota</button>
+                        </div>
+                      </form>
                     </div>
                   </div>
 
-                  
+                  <!---->
                 </div>
                 </div>
                 </div>

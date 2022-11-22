@@ -54,7 +54,12 @@ color: gray;
     display: flex;
     align-items: center;
 }
-
+.offcanvas{
+    --bs-offcanvas-width:80%
+}
+.btn-outline-light{
+    border: none;
+}
 
 .wrapper{
     width: 100%;
@@ -78,9 +83,7 @@ color: gray;
     padding-left: 10px;
 
 }
-.offcanvas{
-    width: 600px;
-}
+
 
 /*main*/
 .main{
